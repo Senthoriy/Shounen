@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    </html>
+    <header>
+        <h1>Login Page</h1>
+    </header>
+    <div class="content">
+        <form action="#" method="post" class="login-form">
+            <div class="form-group">
+                <label for="username"> username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <a href="Cireng.html" class="login-link">Login</a>
+
+        </form>
+    </div>
+    
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            
+            // Get the username and password values
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Simple validation (replace with your actual logic)
+            if (username === 'admin' && password === 'password123') {
+                // Redirect to a specific website if the login is successful
+                window.location.href = 'Cireng.html'; // Change this to your target website
+            } else {
+                // Show an error message
+                document.getElementById('errorMessage').innerText = 'Invalid username or password';
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

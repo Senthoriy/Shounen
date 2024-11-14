@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8e6e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e03e4e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e03e4e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #c42e3e;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e03e4e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-link {
+    color: #ffffff; /* Ganti dengan warna yang diinginkan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+    padding: 10px 15px; /* Memberi ruang di sekitar teks */
+    background-color: rgb(179, 85, 85); /* Warna latar belakang */
+    border-radius: 5px; /* Membuat sudut membulat */
+}
+
+.login-link {
+    color: white;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    color: #423233; /* Warna teks saat hover */
+    background-color: #e03e4e; /* Warna latar belakang saat hover */
+}

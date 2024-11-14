@@ -1,0 +1,54 @@
+.NEXT-link {
+    display: flex;
+    flex-direction: column;
+    height: 2vh;
+    justify-content: flex-end; /* Menempatkan konten di bagian bawah */
+    align-items: center; /* Menempatkan konten di tengah secara horizontal */
+    margin: 0;
+}
+
+.NEXT-link {
+    position: relative;
+    height: 2vh;
+    margin: 0;
+
+}
+
+button {
+    background-color: #e03e4e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 2%;
+}
+
+button:hover {
+    background-color: #c42e3e;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e03e4e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: -2%;
+}
+
+.NEXT-link {
+    background-color: #d36565; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    padding: 10px 20px; /* Padding atas-bawah dan kiri-kanan */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Pointer saat hover */
+    border-radius: 5px; /* Sudut melengkung (opsional) */
+    display: inline-block; /* Membuat tombol seukuran teks */
+}
+
+.NEXT-link:hover {
+    background-color: hsl(0, 88%, 39%); /* Warna saat hover */
+}
